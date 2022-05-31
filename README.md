@@ -7,7 +7,7 @@
 <h2>
 Apresentação
 </h2>
-<p>A partir dos exempos e explicações da Gabriela Pinheiro, fiz algumas adaptações de forma à acrescentar
+<p>A partir dos exemplos e explicações da Gabriela Pinheiro, fiz algumas adaptações de forma à acrescentar
    funcionalidades ao menu criado por ela, e personalizei a página com informações relacionadas a mim.</p>
 
 <h2>🛠 Tecnologias Utilizadas</h2>
