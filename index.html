@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+    <body>
+        <header class="header-wrapper">
+            <div class="header">
+                <div class="checkbox-container">
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox" id="toggle">
+                        <label class="checkbox" for="toggle"> <!-- onclick="
+                        alert('Javascript da certo');
+                            const tt = document.querySelector('.menu-items');
+                            tt.setAttribute('style', 'visibility:visible' );
+                            " -->
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                        </label>
+                        <div class="menu" ></div>
+                        <nav class="menu-items">
+                            <ul>
+                                <li>
+                                    <a href="#home" onclick="handlesChecked()">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#sobre" onclick="handlesChecked()">Sobre</a>
+                                </li>
+                                <li>
+                                    <a href="#cursos" onclick="handlesChecked()">Cursos</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+        <div class="wrapper" id="home">
+            <h1>Luiz Santana</h1>
+            <h2>Front-end Developer</h2>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/luiz-santana-929437215/" target="_blank">Linkedin</a>
+                <a href="https://github.com/santanalcs" target="_blank">Github</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card-container" id="sobre">
+                <div class="card-sobre">
+
+                </div>
+                <div class="card">
+                    <div class="card-wrapper">
+                        <h2>Sobre</h2>
+                        <p>Leia um pouco sobre mim!</p>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <p> Sou bastante formal e estruturado, com estilo vigoroso e as vezes até agressivo.</p>
+                    <p> Procuro sempre aplicar um alto nível de qualidade em tudo o que faço.</p>
+                    <p> Meu perfil é voltado ao trabalho, sou persistente e me esforço muito para alcançar
+                        os objetivos e desafios.</p>
+                    <p> Me formei em Sistemas de Informações em 2007 e, frente a uma carreira já consolidada
+                        na Empresa Brasileira de Correios e Telégrafos, não tive a oportunidade de ingressar 
+                        nesse mercado que tanto tenho interesse.</p>
+                    <p> Trabalhei nos Correios durante 33 anos. Ao longo deste tempo passei por várias 
+                        experiências e desenvolvi diversas habilidades: pessoal e profissional.</p>
+                    <p> Hoje, aposentado, considero esta uma ocasião favorável para aprender mais e voltar 
+                        ao mercado nesta área a qual tenho tanta paixão.</p>
+                </div>
+            </div>
+            <div class="card-container" id="cursos">
+                <div class="card-cursos">
+
+                </div>
+                <div class="card">
+                    <div class="card-wrapper">
+                        <h2>Cursos</h2>
+                        <p>Conheça alguns cursos concluidos na plataforma dio</p>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <h3>HTML5/CSS Bootstrap</h3>
+                    <ul>
+                        <li>Introdução a criação de websites com HTML5 e CSS3</li>
+                        <li>Posicionando elementos com Flexbox em CSS</li>
+                        <li>Conceitos de responsividade e experiência do usuário</li>
+                        <li>Recriando a Interface do Netflix</li>
+                        <li>Construindo páginas para internet com Bootstrap</li>
+                        <li>Primeiros passos para desenvolvimento web</li>
+                        <li>Recriando a Interface do Netflix</li>
+                    </ul>
+                    <h3>Javascript</h3>
+                    <ul>
+                        <li>Introdução ao JavaScript</li>
+                        <li>Sintaxe Básica em JavaScript</li>
+                        <li>Javascript Assíncrono</li>
+                        <li>Manipulando a D.O.M. com JavaScript</li>
+                        <li>Trabalhando com Módulos em JavaScript</li>
+                        <l>Map, Filter e Reduce</l>
+                    </ul>
+                    <h3>ReactJS</h3>
+                    <ul>
+                        <li>Introdução ao ReactJS</li>
+                        <li>Desenvolvimento de aplicações para internet com ReactJS</li>
+                        <li>Trabalhando com Componentes em React</li>
+                        <li>Introdução a Redux com ReactJS</li>
+                        <li>Trabalhando com States & Effects no ReactJs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>Desenvolvendo um menu hamburguer e morphing menu com CSS Transitions</p>
+            <p>&copy; 2022 TQI Fullstack Develope - Desafio de Projeto</p>
+        </footer>
+    </body>
+    <script>
+        function handlesChecked(){
+            document.querySelector('#toggle').checked = false;
+        }
+    </script>
+</html>
